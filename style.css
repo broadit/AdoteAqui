@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #F6F9FF;
+    height: 200vh;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    padding: 20px 0;
+    max-height: 100px;
+}
+
+.cabecalhoPrincipal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: flex-end;
+    /* width: auto;
+    height: auto; */
+}
+
+.logo img {
+    width: 20%;
+}
+
+nav {
+    text-align: right;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.menu a:hover {
+    color: #c6c6c6;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+body, ul, li, p {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.imgConteudo {
+    height: 50%;
+}
+.principal {
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+}
+
+.descricao {
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    /* margin-top: 100px; */
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.pets {
+    max-width: 100%;
+    max-height: 80%;
+    display: block;
+    border: 2px solid #fff;
+    border-radius: 1.5rem;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.3);
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flexbox > div{
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+section > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.flexbox > div p {
+    margin-top: 10px;
+}
+
+.flexbox > div span {
+    margin-bottom: 30px;
+}
+
+.flexbox > div img {
+    width: 380px;
+    height: 300px;
+}
+
+footer {   
+    text-align: center;
+    background: black;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+}
+
+footer > img {
+    width: 90px;
+    height: 90px;
+}
