@@ -19,6 +19,10 @@ header {
     max-height: 100px;
 }
 
+h1.tituloCabecalho:hover {
+    font-size: 50px;
+}
+
 .cabecalhoPrincipal {
     display: flex;
     flex-direction: row;
@@ -73,14 +77,13 @@ a {
     height: 50%;
 }
 .principal {
-    margin: 100px auto;
+    margin: 100px auto; 
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
     width: 50%;
-    text-align: center;
+    text-align: center; 
 }
 
 .descricao {
@@ -89,7 +92,6 @@ a {
 
 h1 {
     text-align: center;
-    /* margin-top: 100px; */
     margin-bottom: 30px;
     font-weight: 400;
     font-size: 2rem;
@@ -125,6 +127,18 @@ section > div {
 
 .flexbox > div p {
     margin-top: 10px;
+    width: 100%;
+    background:linear-gradient(45deg, #c9cce9, #708090);
+    color:#fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s linear;
+    text-align: center;
+}
+
+.container form .submit-btn:hover{
+    letter-spacing: 2px;
+    opacity: .8;
 }
 
 .flexbox > div span {
@@ -142,6 +156,7 @@ footer {
     padding: 10px 0;
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .copyright {
